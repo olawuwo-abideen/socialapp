@@ -12,7 +12,7 @@ app.use('/user', proxy('http://localhost:5001'))
 app.use('/comment', proxy('http://localhost:5002'))
 app.use('/like', proxy('http://localhost:5003')) 
 app.use('/post', proxy('http://localhost:5004'))
-app.use('/relationship', proxy('http://localhost:5004'))
+app.use('/relationship', proxy('http://localhost:5005'))
 app.use('/relationship', proxy('http://localhost:5006'))
 
 app.listen(5000, () => {
