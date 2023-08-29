@@ -12,7 +12,7 @@ const app = express();
 // routes
 
 app.get('/', (req, res) => {
-  res.send('<h1>Welcome To my Api Chat api</h1>');
+  res.send('<h1>Welcome To my Chat api</h1>');
 });
 
 
