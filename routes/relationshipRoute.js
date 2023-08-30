@@ -1,5 +1,4 @@
 const express = require('express');
-import {  } from "../controllers/.js";
 const { getRelationships, addRelationship, deleteRelationship } = require('../controllers/relationshipController');
 
 const router = express.Router()
